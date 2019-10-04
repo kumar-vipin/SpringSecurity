@@ -7,6 +7,7 @@
 	<packaging>war</packaging>
 
 	<properties>
+		<spring.core.version>4.3.25.RELEASE</spring.core.version>
 		<spring.version>4.2.1.RELEASE</spring.version>
 		<security.version>4.0.3.RELEASE</security.version>
 		<jdk.version>1.8</jdk.version>
@@ -18,7 +19,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
-			<version>${spring.version}</version>
+			<version>${spring.core.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
