@@ -12,7 +12,7 @@
 	default-lazy-init="true">
 
 	<mvc:annotation-driven />
-	<mvc:view-controller path="/home.htm" view-name="home" />
+	<mvc:view-controller path="/default.htm" view-name="home" />
 	<mvc:view-controller path="/admin/home.htm" view-name="admin" />
 	<mvc:view-controller path="/user/home.htm" view-name="user" />
 	<mvc:view-controller path="/login.htm" view-name="login" />

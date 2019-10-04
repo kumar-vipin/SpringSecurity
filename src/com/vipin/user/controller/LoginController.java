@@ -8,6 +8,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class LoginController {
 
+	@RequestMapping(value = "/default.htm", method = RequestMethod.GET)
+	public String home(ModelMap model) {
+		System.out.println("Login called!!!");
+		return "home";
+	}
+	
 	@RequestMapping(value = "/login.htm", method = RequestMethod.GET)
 	public String login(ModelMap model) {
 		System.out.println("Login called!!!");
@@ -26,6 +32,5 @@ public class LoginController {
 		System.out.println("Login Error called!!!");
 		model.addAttribute("error", "true");
 		return "login";
-
 	}
 }

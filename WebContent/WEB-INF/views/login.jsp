@@ -21,26 +21,6 @@
 		}
 	%>
 
-	<%-- <form name='loginForm' action="<c:url value='login' />"
-		"
-method='POST'>
-
-		<table>
-			<tr>
-				<td>User:</td>
-				<td><input type='text' name='username' value=''></td>
-			</tr>
-			<tr>
-				<td>Password:</td>
-				<td><input type='password' name='password' /></td>
-			</tr>
-			<tr>
-				<td><input name="submit" type="submit" value="submit" /></td>
-				<td><input name="reset" type="reset" /></td>
-			</tr>
-		</table>
-
-	</form> --%>
 	<form action="j_security_check" name="login" method="post">
 		<div class="username-wrapper">
 			<div class="element-container">
