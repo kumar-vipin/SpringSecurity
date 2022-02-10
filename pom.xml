@@ -12,7 +12,7 @@
 		<security.version>4.0.3.RELEASE</security.version>
 		<spring.security.core.version>4.2.13.RELEASE</spring.security.core.version>
 		<jdk.version>1.8</jdk.version>
-		<hibernate.version>5.1.0.Final</hibernate.version>
+		<hibernate.version>5.4.24.Final</hibernate.version>
 		<mysql.connector.version>5.1.21</mysql.connector.version>
 	</properties>
 
