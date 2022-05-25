@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 
 	<properties>
-		<spring.core.version>4.3.25.RELEASE</spring.core.version>
+		<spring.core.version>5.2.22.RELEASE</spring.core.version>
 		<spring.version>4.2.1.RELEASE</spring.version>
 		<security.version>4.0.3.RELEASE</security.version>
 		<spring.security.core.version>4.2.13.RELEASE</spring.security.core.version>
